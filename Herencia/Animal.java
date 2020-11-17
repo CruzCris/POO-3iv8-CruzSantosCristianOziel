@@ -39,7 +39,7 @@ public class Animal{
         return tipo_alimento;
     }
     //establecer
-    public void setNombre(String tipo_salimento){
+    public void setTipoAlimento(String tipo_salimento){
         this.tipo_alimento = tipo_alimento;
     }
     public int getEdad(){
