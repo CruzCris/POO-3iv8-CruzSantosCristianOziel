@@ -4,9 +4,9 @@ public class Perro extends Animal{
         //constructor
     }
     //metodo
-    public Perro(String nombre, String raza String tipo_alimento, int edad, String ladrido){
+    public Perro(String nombre, String raza, String tipo_alimento, int edad, String ladrido){
         //palabra reservada super para poder acceder a los atributos de la clase padre
-        super(nombre, raza, tipo_salimento, edad);
+        super(nombre, raza, tipo_alimento, edad);
         //acceso a la variable propia de la clase
         this.ladrido = ladrido;
     }

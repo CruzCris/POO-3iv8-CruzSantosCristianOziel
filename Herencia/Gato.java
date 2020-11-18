@@ -3,8 +3,8 @@ public class Gato extends Animal{
     public Gato(){
 
     }
-    public Gato(String nombre, String raza String tipo_alimento, int edad, int num_vidas){
-        super(nombre, raza, tipo_salimento, edad);
+    public Gato(String nombre, String raza, String tipo_alimento, int edad, int num_vidas){
+        super(nombre, raza, tipo_alimento, edad);
         //acceso a la variable propia de la clase
         this.num_vidas = num_vidas;
     }
@@ -20,6 +20,6 @@ public class Gato extends Animal{
                                 + " su raza es: "+ getRaza()
                                 + " come: "+ getTipoAlimento()
                                 + " su edad es de: "+ getEdad()
-                                + " su ladrido es: "+ getNumVidas());
+                                + " su numero de vidas es: "+ getNumVidas());
     }
 }

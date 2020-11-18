@@ -15,7 +15,7 @@ public class Animal{
         //para poder acceder a las variables son privadas es necesario
         //utilizar la palabra reservada this
         this.nombre = nombre;
-        this.raza = raz;
+        this.raza = raza;
         this.tipo_alimento = tipo_alimento;
         this.edad = edad;
     }
