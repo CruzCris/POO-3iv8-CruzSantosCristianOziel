@@ -8,7 +8,7 @@ public class OP{
             System.out.println("Ingresa un valor numerico: ");
             y=entrada.nextInt();
             System.out.println("El numero es: "+y);
-            System.exit(0);
+            //System.exit(0);
             //cacha el error mediante el objeto e
         }catch(Exception e){
             //mensaje de error

@@ -6,5 +6,6 @@ public class Excepciones{
             OP obj = new OP();
             obj.Ejemplo();
         }
+        //System.out.println(y);
     }
 }
